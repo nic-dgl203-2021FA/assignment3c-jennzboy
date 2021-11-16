@@ -30,21 +30,18 @@
 }
 
 
-/* ########## Animated Clouds ########## */
+/* ########## Variable Font Animation ########## */
 
-#animatedCloud1 {
-    animation: float 25s linear infinite;
-  }
-  
-#animatedCloud2 {
-    animation: float 30s 4s linear infinite backwards;
-  }
+#variableFont {
+  font-family: 'Urbanist', sans-serif;
+  animation: variable 7s linear infinite;
+}
 
-@keyframes float {
-    0% {
-      transform: translateX(-250px);
-    }
-    100% {
-      transform: translateX(1000px);
-    }
+@keyframes variable {
+  0% {
+    font-variation-settings: "wght" 100;
   }
+  100% {
+    font-variation-settings: "wght" 900;
+  }
+}
