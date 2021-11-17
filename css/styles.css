@@ -1,3 +1,13 @@
+/* ########## Bootstap Color Overides ########## */
+
+:root {
+  --primary: #53917E;
+  --secondary: #9C89B8;
+  --info: #17a2b8;
+  --light: #f8f9fa;
+  --dark: #33261D;
+}
+
 /* ########## Animated Word ########## */
 
 #animatedWord {
