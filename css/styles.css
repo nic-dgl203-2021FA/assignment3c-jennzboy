@@ -8,6 +8,15 @@
   --dark: #33261D;
 }
 
+.btn-primary {
+  background-color: var(--primary);
+  border: var(--info);
+}
+
+.btn-primary:hover {
+  background-color: var(--info);
+}
+
 /* ########## Animated Word ########## */
 
 #animatedWord {
